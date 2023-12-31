@@ -138,7 +138,9 @@ sistem = InventoryApp(root)
 root.mainloop()
 code diatas menginisiasikan Tkinter pada fariable root, kemudian pada variable sistem akan menampung class InventoryApp dengan paraeternya adalah root, setelah itu program dijalankan dengan root.mainloop() sebagai perulangan pada root.
 	Dari hasil penjalanan itu akan dihasilkan GUI dengan tampilan sebagai berikut:
- 
+
+ ![image](https://github.com/adinmusababa/InventoryManagementSystem_PBO-VII_Kel2/assets/87321553/a8b54766-b075-4851-ad41-07b46888d51f)
+
 	
 	Gambar diatas merupakan hasil inisiasi dari pengabungan code pada metode, pada gambar tersebut terdapat from input untuk mengisi barang-barang yang akan direkap dalam sistem. Kolom item ID akan menampung nilai id dari barang yang digunakan sebagai kunci dari barang tersebut. Nama adalah nama barang yang akan direkap dalam sistem. Quantity adalah jumlah barang yang akan dimasukkan dalam sistem. Harga adalah penampung harga barang yang akan dimasukkan dalam sistem.
 	Setealah mengisi from diatas dapat enekan tombol add yang akan menjalankan fungsi add_item pada code sebelumnya. Data yang telah diisikan akan ditampung dalam list yang tertera dibawah from. 
